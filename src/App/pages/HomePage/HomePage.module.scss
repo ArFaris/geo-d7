@@ -14,10 +14,10 @@
     width: 100%;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     background-color: $accent;
-    border: 1px solid $secondary;
     padding-block: $padd-24;
     text-align: center;
     transition: $transition;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 
     @media(hover: hover) {

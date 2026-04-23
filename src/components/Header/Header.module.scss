@@ -14,7 +14,6 @@
         align-items: center;
         padding: $padd-16 $padd-80;
         background-color: $primary;
-        border-bottom: 1px solid $body-bg;
         position: relative;
         z-index: 10;
     }
@@ -26,7 +25,9 @@
         align-items: center;
         min-height: 54px;
         background-color: $accent;
-        border-bottom: 1px solid $body-bg;
+        border-bottom: 3px solid $accent;
+        background-color: rgb(218, 210, 202, 0.5);
+        backdrop-filter: blur(20px);
         position: relative;
         z-index: 1;
         transition: transform 0.75s cubic-bezier(0.4, 0, 0.2, 1);
